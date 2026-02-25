@@ -1,44 +1,42 @@
 # 🚀 Flask Register & Login Web App
 
-A modern **authentication web application** built using **Python + Flask**, featuring a beautiful glassmorphism UI, secure password hashing, session-based authentication, and a clean project structure.
+A modern authentication web application built using **Python + Flask**, featuring a beautiful glassmorphism UI, secure password hashing, session-based authentication, and a clean project structure.
 
 This project was built to practice full-stack fundamentals and showcase backend + frontend integration.
 
-Preview: https://login-register-app-t1d2.onrender.com/
+🌐 **Live Preview:**  
+https://login-register-app-t1d2.onrender.com/
 
 ---
 
 ## ✨ Features
 
-* 🔐 User Registration
-* 🔑 Secure Login & Logout
-* 🔒 Password Hashing (Werkzeug Security)
-* 👤 Session Authentication
-* 💬 Flash Messages for feedback
-* 🎨 Modern Glassmorphism UI
-* 🌈 Animated Gradient Background
-* 📱 Responsive Design (Bootstrap 5)
+- 🔐 User Registration  
+- 🔑 Secure Login & Logout  
+- 🔒 Password Hashing (Werkzeug Security)  
+- 👤 Session Authentication  
+- 💬 Flash Messages for feedback  
+- 🎨 Modern Glassmorphism UI  
+- 🌈 Animated Gradient Background  
+- 📱 Responsive Design (Bootstrap 5)
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Backend**
+### Backend
+- Python
+- Flask
+- Flask-SQLAlchemy
+- Werkzeug Security
 
-* Python
-* Flask
-* Flask-SQLAlchemy
-* Werkzeug Security
+### Frontend
+- HTML5
+- CSS3
+- Bootstrap 5
 
-**Frontend**
-
-* HTML5
-* CSS3
-* Bootstrap 5
-
-**Database**
-
-* SQLite
+### Database
+- SQLite
 
 ---
 
@@ -93,7 +91,7 @@ python app.py
 
 ---
 
-## ▶️ Open in browser
+## ▶️ Open in Browser
 
 ```
 http://127.0.0.1:5000
@@ -101,13 +99,13 @@ http://127.0.0.1:5000
 
 ---
 
-## 📸 Screenshots (optional)
+## 📸 Screenshots (Optional)
 
 Add screenshots later here:
 
-* Login Page
-* Register Page
-* Dashboard
+- Login Page  
+- Register Page  
+- Dashboard  
 
 *(Screenshots make your repo look more professional.)*
 
@@ -115,20 +113,20 @@ Add screenshots later here:
 
 ## 🔐 Security Notes
 
-* Passwords are hashed using Werkzeug.
-* Sessions are used for authentication.
-* This project is for learning & portfolio purposes (not production ready).
+- Passwords are hashed using Werkzeug.
+- Sessions are used for authentication.
+- This project is for learning & portfolio purposes (not production ready).
 
 ---
 
 ## 🚀 Future Improvements
 
-* Email validation
-* Profile page
-* Password reset
-* Dark / Light mode
-* REST API version
-* Deployment (Render / Railway)
+- Email validation  
+- Profile page  
+- Password reset  
+- Dark / Light mode  
+- REST API version  
+- Deployment (Render / Railway)
 
 ---
 
@@ -136,7 +134,8 @@ Add screenshots later here:
 
 **Vamsi Shesamsetti**
 
-GitHub: https://github.com/shesamsetti-vamsi
+GitHub:  
+https://github.com/shesamsetti-vamsi
 
 ---
 
