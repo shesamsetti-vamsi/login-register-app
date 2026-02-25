@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3>User Profile</h3>
+
+<div class="card p-4 shadow">
+
+<p><strong>Username:</strong> {{ user.username }}</p>
+<p><strong>Email:</strong> {{ user.email }}</p>
+<p><strong>Role:</strong> {{ user.role }}</p>
+
+<hr>
+
+<h5>Update Password</h5>
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.password(class="form-control mb-3") }}
+
+    <button class="btn btn-primary">Update Password</button>
+</form>
+
+<a href="/dashboard" class="btn btn-secondary mt-3">
+← Back to Dashboard
+</a>
+
+</div>
+
+{% endblock %}
